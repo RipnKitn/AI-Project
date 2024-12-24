@@ -17,9 +17,6 @@ client = EnhancedRESTClient(api_key=api_key, api_secret=api_secret)
 # Flask App Setup
 app = Flask(__name__)
 
-# Secret key for webhook authentication
-SECRET_KEY = os.getenv("WEBHOOK_SECRET", "your_secret_key_here")
-
 # Utility functions
 def load_parameters(file_path="parameters.json"):
     """Load trading parameters from parameters.json."""
@@ -90,10 +87,6 @@ def calculate_amount(action, params, wallet, price):
 def webhook():
     """Handle incoming webhooks."""
     data = request.get_json()
-
-    # Validate the secret key
-    if data.get("secret") != SECRET_KEY:
-        return "Unauthorized", 401
 
     print("Webhook received:", data)
     action = data.get("action")
