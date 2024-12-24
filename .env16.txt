@@ -1,0 +1,11 @@
+# Coinbase One API Credentials
+
+# API key and private key
+API_KEY=98d72869-c4dd-40cd-8a66-b6974022dae5
+API_SECRET="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILuQ+nBhRlUvcYABLUqzEprYTLkALB6ingIrAteSqMoHoAoGCCqGSM49\nAwEHoUQDQgAEYPYQKEooGDLbvPP47stcsiDCj/NG9vWMTu+c1ckwx2BdhQIYQSBB\nJ/LaS1v96ena8OXynGo/XOPSQjw1kmnLDA==\n-----END EC PRIVATE KEY-----\n"
+
+# Coinbase Base URL (using the latest URL for Coinbase API)
+BASE_URL=https://api.coinbase.com/v2
+
+# Optional: Passphrase (commented out because you don't need one)
+# API_PASSPHRASE=your_api_passphrase_here

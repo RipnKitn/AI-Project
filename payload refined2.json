@@ -1,0 +1,12 @@
+{
+    "passphrase": "abcdefgh",
+    "time": "{{timenow}}",
+    "exchange": "{{exchange}}",
+    "ticker": "{{ticker}}",
+    "time": "{{time}}",
+    "open": {{open}},
+    "high": {{high}},
+    "low": {{low}},
+    "close": {{close}},
+    "volume": {{volume}}
+}

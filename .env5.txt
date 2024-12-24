@@ -1,0 +1,9 @@
+API_KEY=from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+API_KEY = os.getenv('organizations/1073f4e6-52f3-49e4-b7e4-e2bd34261c51/apiKeys/7e23b2c4-f91d-47db-bc56-35775be759aa
+')
+API_SECRET = os.getenv('API-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIEajBK7ysPzoNM3v79sYdyzcaN9VH9eWi7PUeZF1k5CdoAoGCCqGSM49\nAwEHoUQDQgAEo8k64SDokeG8dlwpuyTCJau0AhxAWfh/hML9UEdrEAxmD5WEYp+B\nO89GXmvpw598CtdSSZmp02IQyMp3cOa5YA==\n-----END EC PRIVATE KEY-----\n_SECRET')
+

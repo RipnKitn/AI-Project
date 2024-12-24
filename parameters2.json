@@ -1,0 +1,10 @@
+{
+    "coin": "giga",
+    "pair": "usdc",
+    "buy_%": 90,   // Percentage-based buy of available USDC
+    "sell_%": 80,  // Percentage-based sell of GIGA balance
+    "buy_$": 10,   // Buy $10 worth of GIGA using USDC
+    "sell_$": 5,   // Sell 5 GIGA
+    "mode": "$"    // Determines which setup to use: "%" for percentage, "$" for flat-rate
+  }
+  

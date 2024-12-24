@@ -1,0 +1,11 @@
+{
+  "coin": "giga",
+  "pair": "USDC",
+  "buy_%": 50,
+  "sell_%": 25,
+  "buy_$": 2,
+  "sell_$": 2,
+  "mode": "%",
+  "buy% from": "C",
+  "sell% from": "P"
+}

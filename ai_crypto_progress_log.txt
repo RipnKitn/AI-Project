@@ -1,0 +1,29 @@
+
+Progress Log - AI Crypto Project
+
+Session Overview:
+- 35 versions of main.py created over 8 days and 100+ sessions.
+- Last session ended with a setback, requiring us to restart and attempt recovery.
+- Previous work was overwritten due to an issue with code provided.
+- Goal: Keep track of all progress, including coding versions and workflow, for future sessions.
+
+Key Actions in Recent Session:
+1. Flask app was successfully set up and running on localhost (127.0.0.1:80).
+2. Webhook endpoint (`/webhook`) created in `main.py`.
+3. Adjustments made to TradingView alert for testing with a $1 trade amount.
+4. Progress lost during session transition, which caused wasted time and effort.
+
+Important Notes for Future Sessions:
+- **Use minimal trade amounts** ($1) for testing to avoid hitting Coinbase's minimum trade limits.
+- **Webhook functionality**: Ensure TradingView alerts send correctly to `http://127.0.0.1:80/webhook`.
+- Flask app should be run with `python main.py` on port 80 to listen for webhooks.
+
+Steps Moving Forward:
+1. Continue testing webhook functionality with TradingView alerts.
+2. Track any issues in the system (e.g., code not working as expected, API issues).
+3. Regularly save progress and log any critical changes or updates to the system.
+
+Known Issues:
+- Some previous code may have been overwritten by mistake, causing issues in the current setup.
+- Need a better way to track each session's progress to avoid setbacks.
+
